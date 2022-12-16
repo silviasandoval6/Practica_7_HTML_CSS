@@ -1,0 +1,68 @@
+//Creamos una clase myDiv1 para definir el estilo del cuadrado azul
+.myDiv1{
+	background-color: lightskyblue;
+	position: absolute;
+	/*20 píxeles desplazados desde la izquierda*/
+	left: 20px;
+	/*40 píxeles desplazados desde arriba*/
+	top: 40px;
+	/*120 píxeles de altura*/
+	height: 120px;
+	/*160 píxeles de ancho*/
+	width: 160px;
+	/*Índice de prioridad más alto que el cuadro rojo*/
+	z-index: 2;
+}
+//Creamos una clase myDiv2 para definir el estilo del cuadrado amarillo
+.myDiv2{
+	background-color: yellow;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	height: 40px;
+	width: 40px;
+}
+//Creamos una clase myDiv3 para definir el estilo del cuadrado rojo
+.myDiv3{
+	background-color: red;
+	position: absolute;
+	left: 100px;
+	top: 140px;
+	height: 120px;
+	width: 160px;
+	z-index: 1;
+}
+//Creamos una clase myDiv4 para definir el estilo del cuadrado verde
+.myDiv4{
+	background-color: limegreen;
+	position: relative;
+	left: 100px;
+	top: 60px;
+	height: 40px;
+	width: 40px;
+}
+//Ponemos la posición de la imagen en relativa con la clase container
+.container {
+  position: relative;
+}
+//Clase para editar el estilo del texto central
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+//Dimensionamos la imagen
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+//Clase para editar el estilo del texto de abajo a la izquierda
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
